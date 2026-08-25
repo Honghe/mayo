@@ -21,7 +21,7 @@ protected:
     void send(const TCollection_AsciiString& text, const Message_Gravity gravity) const override;
 #else
 public:
-    void Send(const TCollection_ExtendedString& text, const Message_Gravity gravity, const bool toPutEol) const
+    void Send(const TCollection_ExtendedString& text, const Message_Gravity gravity, const bool toPutEol) const override;
 #endif
 
 private:
