@@ -10,6 +10,8 @@
 #include "../src/base/property_value_conversion.h"
 
 Q_DECLARE_METATYPE(Mayo::PropertyValueConversion::Variant)
+Q_DECLARE_METATYPE(std::shared_ptr<Mayo::Property>)
+Q_DECLARE_METATYPE(std::string)
 
 namespace Mayo {
 

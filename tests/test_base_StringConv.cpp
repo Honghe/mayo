@@ -9,6 +9,8 @@
 #include "../src/base/string_conv.h"
 
 #include <clocale>
+#include <locale>
+#include <optional>
 
 namespace Mayo {
 
